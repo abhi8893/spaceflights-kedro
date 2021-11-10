@@ -16,3 +16,7 @@ shuttles:
   filepath: data/01_raw/shuttles.xlsx
   load_args:
     engine: openpyxl
+
+my_dataset:
+  type: json.JSONDataSet
+  filepath: data/01_raw/my_dataset.json
