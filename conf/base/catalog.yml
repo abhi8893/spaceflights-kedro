@@ -20,3 +20,15 @@ shuttles:
 my_dataset:
   type: json.JSONDataSet
   filepath: data/01_raw/my_dataset.json
+
+preprocessed_companies:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/preprocessed_companies.csv
+
+preprocessed_shuttles:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/preprocessed_shuttles.csv
+
+master_table:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/master_table.csv
